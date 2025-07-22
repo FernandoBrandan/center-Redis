@@ -31,16 +31,7 @@ Mecanismos atómicos para transacciones críticas
 - TypeScript/Node.js
 - MySQL
 - Arquitectura Event-Driven (cola Redis para updates)
-
-## Ventajas:
-
-- Alta concurrencia (>1k RPS)
-- Latencia reducida de ~200ms (DB) a ~5ms (Redis)
-- Escalabilidad horizontal mediante sharding
-- Sistema resiliente con reconexión automática
-- Consistencia eventual con patrón Cache-Aside
-- Requerimientos de consistencia fuerte
-- Operaciones críticas de inventario
+ 
 
 Uso en producción:
 
